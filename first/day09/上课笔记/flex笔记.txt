@@ -1,0 +1,37 @@
+1.弹性布局
+    子元素的宽度和超过父元素，宽度自动缩减
+    父元素设置diplay:flex;子元素自动水平排列
+    子元素没有指定高度，则继承父元素的高度
+
+  水平轴  主轴 
+    justify-content:flex-start
+    justify-content:flex-end;
+    justify-content:flex-center;
+
+    子元素有相同的间距
+    justify-content:space-around;
+    两端对齐
+    justify-content:space-between;
+    交叉轴
+    align-items:flex-end;flex-start;center
+    align-items:baseline;文字基线对齐
+
+
+    改变主轴方向
+    flex-direcotion:column;
+
+    换行
+    flex-wrap，默认不换行
+
+    多轴对齐
+    align-content:
+    order 默认值为0，越小越靠前
+
+    flex-basis
+
+    align-self:项目本身的交叉轴对齐
+mzui
+ruanyifeng
+大神
+
+gird

@@ -1,0 +1,229 @@
+.dock-top .logo {
+  padding-left: 40%;
+  padding-top: .8rem;
+}
+.dock-top .logo img {
+  width: 2.613333rem;
+  height: .84rem;
+}
+.dock-top a {
+  padding-left: 1.8rem;
+}
+.dock-top a i {
+  font-size: .533333rem;
+}
+.cont .view ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cont .view ul li {
+  width: 2.2rem;
+  height: .76rem;
+  border-radius: .066667rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+}
+.cont .view ul li div {
+  height: .493333rem;
+  width: .493333rem;
+}
+.cont .view ul li span {
+  font-size: .32rem;
+}
+.cont .fistNew {
+  height: .986667rem;
+  margin: .266667rem 0;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+.cont .fistNew h2 {
+  font-size: .5rem;
+  color: #ff6101;
+  padding-left: .266667rem;
+}
+.cont .fistNew p {
+  font-size: .4rem;
+  color: #595959;
+}
+.cont .fistNew p span {
+  padding-left: .106667rem;
+}
+.hot {
+  height: 9.96rem;
+  background-color: #fff;
+}
+.hot .htoConten {
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.hot .htoConten::-webkit-scrollbar {
+  display: none;
+}
+.hot .htoConten ul {
+  display: flex;
+  width: 14.8rem;
+  margin-left: .133333rem;
+  flex-wrap: wrap;
+}
+.hot .htoConten ul li {
+  height: 3.6rem;
+  width: 6.84rem;
+  margin: .133333rem;
+}
+.hot .htoConten ul li img {
+  border-radius: .066667rem;
+  margin: 0;
+}
+.hot .htoConten ul li div p {
+  font-size: .32rem;
+}
+.hot .htoConten ul li div p button {
+  width: .68rem;
+  border-radius: 5px;
+  float: right;
+  background-color: #fff;
+  color: #ff6101;
+  font-size: .213333rem;
+  border: 1px solid #ff6101;
+}
+.hot .htoConten ul li div p:nth-child(2) {
+  font-size: .266667rem;
+  color: #b0b0b0;
+}
+.hot .htoConten ul li div p:nth-child(2) button {
+  width: 1.213333rem;
+  font-size: .213333rem;
+  color: #0186d9;
+  border: 1px solid #0186d9;
+}
+.hot .hotMore {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hot .hotMore a {
+  width: 2.173333rem;
+  height: .64rem;
+  border: 1px solid #0186d9;
+  border-radius: .133333rem;
+  line-height: .64rem;
+  color: #0186d9;
+  font-size: .266667rem;
+}
+.custonMade {
+  background-color: #fff;
+  margin-top: .266667rem;
+}
+.custonMade div.custTitle {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: #ff6101;
+  padding-top: .133333rem;
+}
+.custonMade div.custTitle span {
+  font-size: .373333rem;
+}
+.custonMade div.custTitle span i {
+  font-size: .4rem;
+}
+.custonMade .conText {
+  height: 3.36rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.custonMade .conText div {
+  padding-top: .133333rem;
+}
+.custonMade .conText div p {
+  color: #595959;
+  font-size: .32rem;
+  line-height: .266667rem;
+}
+.custonMade .conText div p button {
+  font-size: .186667rem;
+  color: #ff6101;
+  background-color: #fff;
+  border-radius: .066667rem;
+  border: 1px solid #ff6101;
+  margin-right: .133333rem;
+}
+.custonMade .rightNow {
+  position: relative;
+}
+.custonMade .rightNow img {
+  height: 3.906667rem;
+  margin-bottom: 0;
+}
+.custonMade .rightNow button {
+  height: .52rem;
+  width: 1.493333rem;
+  position: absolute;
+  top: 2.68rem;
+  color: #ff6101;
+  background-color: rgba(148, 145, 145, 0.3);
+  left: 4.226667rem;
+  border: 1px solid #ff6101;
+  border-radius: .066667rem;
+}
+.visited {
+  height: 4.56rem;
+  background-color: #fff;
+  margin-top: .266667rem;
+}
+.visited ul {
+  padding-left: .466667rem;
+}
+.visited ul li {
+  font-size: .32rem;
+  padding-top: .366667rem;
+}
+.hotTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .133333rem;
+  color: #595959;
+  border-bottom: 1px solid #919191;
+}
+.hotTitle p {
+  padding-top: .133333rem;
+}
+.hotTitle p i {
+  font-size: .4rem;
+  color: #ff6101;
+}
+.hotTitle p span {
+  padding-left: .133333rem;
+  font-size: .373333rem;
+}
+.hotTitle a {
+  color: #919191;
+  font-size: .24rem;
+}
+.dock-bottom div {
+  width: 10rem;
+  height: 1.306667rem;
+  display: flex;
+  justify-content: space-around;
+}
+.dock-bottom div a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dock-bottom div a i {
+  font-size: .4rem;
+}
+.dock-bottom div a:nth-child(1) {
+  color: #0186d9;
+}
+.dock-bottom div a:nth-child(1):hover {
+  color: #0186d9;
+}

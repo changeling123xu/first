@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fist {
+  position: absolute;
+  top: 0;
+}
+.fist div {
+  display: flex;
+  justify-content: space-around;
+}
+.fist div div p {
+  font-size: .24rem;
+}
+.fist div div p span {
+  background-color: #f94e4e;
+  color: white;
+}
+.topSearch {
+  position: relative;
+}
